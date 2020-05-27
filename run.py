@@ -16,4 +16,7 @@ pip_dependencies = [
 
 pip_packages = list(pip_dependencies)
 cmd = "pip3 install --force-reinstall mypy"
+print("------run-----")
+print(cmd)
 run(cmd)
+print("------finish-----")
