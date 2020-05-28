@@ -1,4 +1,5 @@
 FROM ubuntu:focal
+ADD run.py /run.py
 RUN apt-get update
 RUN apt-get update && apt-get install --no-install-recommends -y \
     xvfb \
